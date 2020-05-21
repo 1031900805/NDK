@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".JavaActivity"
-            android:configChanges="navigation"></activity>
+        <activity android:name=".JNIActivity"></activity>
+        <activity android:name=".JavaActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
